@@ -1,147 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina principal</title>
+<html lang="es">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nosotros</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css">
 </head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-<link rel="stylesheet" href="../css/style2.css">
 
-<main>
-    <header class="header">
-        <!-- parte superior con marcas -->
-        <div class="header_marcas">
-            <img class="logos" src="../images/borgh.png" alt="borgh">
-            <img class="logos" src="../images/keyang.png" alt="keyang">
-            <img class="logos" src="../images/diager.png" alt="diager">
-            <img class="logos" src="../images/wokin.jpg" alt="wokin">
+<body class="min-vh-100 d-flex flex-column justify-content-between">
+    <header class="container-fluid text-bg-dark p-0">
+        <div class="p-4 d-flex align-items-center mw-100">
+            <img class="h-auto w-25 p-2" src="../images/borgh.png" alt="borgh">
+            <img class="h-auto w-25 p-2" src="../images/keyang.png" alt="keyang">
+            <img class="h-auto w-25 p-2" src="../images/diager.png" alt="diager">
+            <img class="h-auto w-25 p-2" src="../images/wokin.jpg" alt="wokin">
         </div>
+        <nav class="navbar navbar-dark navbar-expand-lg border-bottom border-top bg-dark">
+            <!-- Navbar bootstrap -->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/nosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/Productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/novedades.html">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/contactenos.html">Contactenos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-light navbar-dark" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
 
     </header>
-    <nav class="navbar navbar-dark navbar-expand-lg  bg-dark">
-        <!-- Navbar bootstrap -->
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Inicio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./nosotros.html">Sobre nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./Productos.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./novedades.html">Novedades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./contactenos.html">Contactenos</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success navbar-dark" type="submit">Buscar</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-
-    <main class="main-historia">
-            <section class="container preferencia1">
-                <article class="row mb-3 mt-3">
-                    <div class="col-lg-8">
-                        <p>En 1932 Clodomiro Parrado abrió un negocio de talabartería, vendiendo artículos para el
-                            trabajo
-                            diario y la vestimenta de los gauchos.
-                            Ubicada estratégicamente a pocos metros de la estación de trenes, Clodomiro tuvo mucho
-                            trabajo,
-                            especialmente con los viajeros.
-                            En 1939, su hijo Seler Parrado, le compró el negocio y comenzó a dirigirlo.</p>
-                        <p>Los tiempos iban cambiando y el transporte por ómnibus desplazaba lentamente al tren...ya que
-                            era
-                            mejor mas rápido y mas económico.
-                            Por esta razón comenzaron a llegar menos clientes a la puerta de la talabartería.Decidido a
-                            cambiar su negocio para poder sobrevivir, Seler Parrado comenzó a ofrecer una completa linea
-                            de
-                            tornillos y bulones.
-                            En 1958, cerró definitivamente la talabartería y abrió lo que hoy conocemos como "LA CASA
-                            DEL
-                            TORNILLO".</p>
-                            <p>El tornillo y la fijación se han tornado imprescindibles en la vida del hombre moderno.La
-                                mayoría
-                                de los objetos, independientemente de forma, o función, necesitan directa o indirectamente
-                                un
-                                tornillo y si hoy el tornillo y la fijación están presentes en la vida de millones de
-                                personas
-                                en el Uruguay, Seler Parrado y LA CASA DEL TORNILLO son responsables en parte por esto.</p>
-                            <p>Los tornillos, la fijación y los productos BORGH, CISER, DeWALT y otras marcas reconocidas,
-                                representanel objetivo de una empresa uruguaya que cree en su trabajo y viene invirtiendo
-                                desde
-                                hace ya casi 60 años imprimiendo calidad al atender a un mercado exigente.
-                                Analizando las tendencias, entrenando a su personal y buscando la satisfacción total del
-                                clienteLA CASA DEL TORNILLO - Seler Parrado S.A. es reconocida en todo el país por la
-                                calidad de
-                                sus productos y servicios.</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <img clas="img-fluid" src="../images/clodomiro.jpg" alt="clodomiro">
-                    </div>
-                </article>
-                <div class="row mb-3">
-                    <img class="img-historia" src="../images/fotovieja.jpg" alt="foto">
+    <main class="container">
+        <section class="m-4 container">
+            <article class="row w-100 mb-3 mt-3">
+                <div class="col-md-6 col-lg-8">
+                    <p>En 1932 Clodomiro Parrado abrió un negocio de talabartería, vendiendo artículos para el
+                        trabajo
+                        diario y la vestimenta de los gauchos.
+                        Ubicada estratégicamente a pocos metros de la estación de trenes, Clodomiro tuvo mucho
+                        trabajo,
+                        especialmente con los viajeros.
+                        En 1939, su hijo Seler Parrado, le compró el negocio y comenzó a dirigirlo.</p>
+                    <p>Los tiempos iban cambiando y el transporte por ómnibus desplazaba lentamente al tren...ya que
+                        era
+                        mejor mas rápido y mas económico.
+                        Por esta razón comenzaron a llegar menos clientes a la puerta de la talabartería.Decidido a
+                        cambiar su negocio para poder sobrevivir, Seler Parrado comenzó a ofrecer una completa linea
+                        de
+                        tornillos y bulones.
+                        En 1958, cerró definitivamente la talabartería y abrió lo que hoy conocemos como "LA CASA
+                        DEL
+                        TORNILLO".</p>
+                    <p>El tornillo y la fijación se han tornado imprescindibles en la vida del hombre moderno.La
+                        mayoría
+                        de los objetos, independientemente de forma, o función, necesitan directa o indirectamente
+                        un
+                        tornillo y si hoy el tornillo y la fijación están presentes en la vida de millones de
+                        personas
+                        en el Uruguay, Seler Parrado y LA CASA DEL TORNILLO son responsables en parte por esto.</p>
+                    <p>Los tornillos, la fijación y los productos BORGH, CISER, DeWALT y otras marcas reconocidas,
+                        representanel objetivo de una empresa uruguaya que cree en su trabajo y viene invirtiendo
+                        desde
+                        hace ya casi 60 años imprimiendo calidad al atender a un mercado exigente.
+                        Analizando las tendencias, entrenando a su personal y buscando la satisfacción total del
+                        clienteLA CASA DEL TORNILLO - Seler Parrado S.A. es reconocida en todo el país por la
+                        calidad de
+                        sus productos y servicios.</p>
                 </div>
-            </section>
+                <div class="col-md-6 col-lg-4">
+                    <img class="w-100 h-auto" src="../images/clodomiro.jpg" alt="clodomiro">
+                </div>
+            </article>
+            <div class="row mb-3">
+                <img class="img-fluid" src="../images/fotovieja.jpg" alt="foto">
+            </div>
+        </section>
     </main>
+    <footer class="border-top container-fluid text-bg-dark">
+        <div class="py-5">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <h4>Nuestros locales:</h4>
+                    <h5>Montevideo:</h5>
+                    <span>Paraguay 1610 esq.Cerro Largo</span>
+                    <span>Yaguarón 1600 esq. Cerro Largo</span>
+                    <h5>Tacuarembó:</h5>
+                    <span>Emilia Grassi 428-Paso de los Toros</span>
+                </div>
 
-    <footer class="py-5 container-fluid">
-        <div class="row">
-            <div class="col-md-3 mb-4">
-                <h4>Nuestros locales:</h4>
-                <h5>Montevideo:</h5>
-                <span>Paraguay 1610 esq.Cerro Largo</span>
-                <span>Yaguarón 1600 esq. Cerro Largo</span>
-                <h5>Tacuarembó:</h5>
-                <span>Emilia Grassi 428-Paso de los Toros</span>
+                <div class="col-md-3 mb-4">
+                    <h4>Horarios:</h4>
+                    <span>Lunes a viernes: 08:00 a 18:00 hrs</span>
+                    <span>Sabádos: 08:30 a 12:30 hrs</span>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <iframe class="w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5503.229019224193!2d-56.195132496896825!3d-34.90043741051207!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x805cb880976d6ca8!2sLa%20Casa%20del%20Tornillo%20Seler%20Parrado%20S.A.!5e0!3m2!1sen!2suy!4v1661732799773!5m2!1sen!2suy"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
 
-            <div class="col-md-3 mb-4">
-                <h4>Horarios:</h4>
-                <span>Lunes a viernes: 08:00 a 18:00 hrs</span>
-                <span>Sabádos: 08:30 a 12:30 hrs</span>
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>Proyecto de Sebastian Tito.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="iconos-redes ms-3"><a class="redes link-dark" href="#"><img class="img-fluid iconos"
+                                src="../images/facebook.svg" alt="facebook"></a></li>
+                    <li class="iconos-redes ms-3"><a class="redes link-dark" href="#"><img class="img-fluid iconos"
+                                src="../images/instagram.svg" alt="instagram"></a></li>
+                    <li class="iconos-redes ms-3"><a class="redes link-dark" href="#"><img class="img-fluid iconos"
+                                src="../images/whatsapp.svg" alt="whats app"></a></li>
+                </ul>
             </div>
-
-            <div class="col-md-6 mb-3">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5503.229019224193!2d-56.195132496896825!3d-34.90043741051207!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x805cb880976d6ca8!2sLa%20Casa%20del%20Tornillo%20Seler%20Parrado%20S.A.!5e0!3m2!1sen!2suy!4v1661732799773!5m2!1sen!2suy"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>© 2022 Company, Inc. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-                <li class="ms-3"><a class="redes link-dark" href="#"><img class="img-fluid iconos"
-                            src="../images/facebook.svg" alt="facebook"></a></li>
-                <li class="ms-3"><a class="redes link-dark" href="#"><img class="img-fluid iconos"
-                            src="../images/instagram.svg" alt="instagram"></a></li>
-                <li class="ms-3"><a class="redes link-dark" href="#"><img class="img-fluid iconos"
-                            src="../images/whatsapp.svg" alt="whats app"></a></li>
-            </ul>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>
-    </body>
+</body>
 
 </html>
