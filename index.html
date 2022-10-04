@@ -1,40 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inicio</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body class="min-vh-100 d-flex flex-column justify-content-between">
     <header class="container-fluid text-bg-dark p-0">
-        <div class="p-4 d-flex align-items-center mw-100">
-            <img class="h-auto w-25 p-2" src="./images/borgh.png" alt="borgh">
-            <img class="h-auto w-25 p-2" src="./images/keyang.png" alt="keyang">
-            <img class="h-auto w-25 p-2" src="./images/diager.png" alt="diager">
-            <img class="h-auto w-25 p-2" src="./images/wokin.jpg" alt="wokin">
-        </div>
         <nav class="navbar navbar-dark navbar-expand-lg border-bottom border-top bg-dark">
-            <!-- Navbar bootstrap -->
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="./pages/nosotros.html">Sobre nosotros</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link active" href="./pages/Productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="./pages/novedades.html">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/nosotros.html">Historia</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="./pages/contactenos.html">Contactenos</a>
@@ -47,27 +41,129 @@
                 </div>
             </div>
         </nav>
-    
+
     </header>
-    <main class="container">
-        <section class="m-4 row">
-            <img src="./images/60 años.jpg" alt="fondo de inicio">
+    <main class="container-fluid">
+        <section class="row d-flex justify-content-center bg-hero align-items-center">
+            <img class="img-hero" src="./images/60.png" alt="fondo de inicio">
         </section>
-        <section class="m-4 row">
-            <div class="text-center p-3">
-                <h2>¿Porqué elegirnos?</h2>
-                <h3>🛠 TENEMOS UN ALTÍSIMO NIVEL DE SATISFACCIÓN DE NUESTROS CLIENTES</h3>
-                <p>No importa el tamaño de su empresa, todos nuestros clientes son importantes para nosotros.</p>
-                <h3>🛠 NOS ADAPTAMOS A LOS REQUERIMIENTOS DE NUESTROS CLIENTES</h3>
-                <p>La flexibilidad es la base de nuestra política de atención al cliente</p>
-                <h3>🛠 CONSTRUÍMOS RELACIONES A LARGO PLAZO</h3>
-                <p>Algunos de nuestros clientes han trabajado con nosotros desde el día de nuestra fundación hace ya casi 60 años y aún hoy siguen requiriendo nuestros servicios.</p>
-                <h3>🛠 ESTAMOS CONCENTRADOS 100% EN LA CALIDAD DE NUESTRO SERVICIO</h3>
-                <p>La calidad es nuestro compromiso con las empresas que confían en nosotros. </p>
+        <section class="row text-center border-top bg-dark">
+            <h2 class="fs-1 text-light p-2 m-2" id="titulo1">¿Por qué elegirnos?</h2>
+            <div class="border-bottom border-top p-0 accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <b>ADAPTAMOS A LOS REQUERIMIENTOS DE NUESTROS CLIENTES</b>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">La flexibilidad es la base de nuestra política de atención al
+                            cliente</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <b>CONSTRUÍMOS RELACIONES A LARGO PLAZO</b>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Algunos de nuestros clientes han trabajado con nosotros desde el día
+                            de nuestra fundación hace ya casi 60 años y aún hoy siguen requiriendo nuestros servicios.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <b>TENEMOS UN ALTÍSIMO NIVEL DE SATISFACCIÓN DE NUESTROS CLIENTES</b>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">No importa el tamaño de su empresa, todos nuestros clientes son
+                            importantes para nosotros.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            <b>ESTAMOS CONCENTRADOS 100% EN LA CALIDAD DE NUESTRO SERVICIO</b>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">La calidad es nuestro compromiso con las empresas que confían en
+                            nosotros. </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            <b>ASESORAMIENTO TELEFÓNICO Y EN OBRA 100 % GRATUITO</b>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Tenemos calificados profesionales, capacitados específicamente para
+                            evacuar todas sus consultas analizando su situación particular para luego determinar junto a
+                            usted la solución que se adecue mejor a sus necesidades.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                            aria-controls="flush-collapseSeven">
+                            <b>SERVICIO DE ENTREGA ÁREA METROPOLITANA</b>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Contamos con una flota de vehículos a su disposición para la entrega
+                            de la mercadería en forma gratuita en envíos mayores a los 25 dolares.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseEight" aria-expanded="false"
+                            aria-controls="flush-collapseEight">
+                            <b>SERVICIO DE TORNERÍA ESPECIALIZADO</b>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseEight" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Confección de piezas según plano, en cualquier tipo de material.
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="m-4 row">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <section class="row text-center bg-dark">
+            <h2 class="fs-2 text-light p-2 m-2" id="titulo2">Las principales marcas con las que trabajamos:</h2>
+            <div class="border-top flex-wrap p-4 d-flex align-items-center mw-100">
+                <img class="h-auto w-25 p-2" src="./images/borgh.png" alt="borgh">
+                <img class="h-auto w-25 p-2" src="./images/keyang.png" alt="keyang">
+                <img class="h-auto w-25 p-2" src="./images/diager.png" alt="diager">
+                <img class="h-auto w-25 p-2" src="./images/wokin.png" alt="wokin">
+                <img class="h-auto w-25 p-2" src="./images/logo-schaefer-peters.png" alt="schafer">
+                <img class="h-auto w-25 p-2" src="./images/walsywa.png" alt="walsywa">
+                <img class="h-auto w-25 p-2" src="./images/metabo.png" alt="metabo">
+                <img class="h-auto w-25 p-2" src="./images/dewalt.png" alt="dewalt">
+            </div>
+        </section>
+        <!-- <section class="row">
+            <div id="carouselExampleCaptions" class="p-0 carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
@@ -110,24 +206,32 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </section>
+        </section> -->
     </main>
     <footer class="border-top container-fluid text-bg-dark">
-        <div class="py-5">
+        <div class="pt-5">
             <div class="row">
                 <div class="col-md-3 mb-4">
                     <h4>Nuestros locales:</h4>
                     <h5>Montevideo:</h5>
-                    <span>Paraguay 1610 esq.Cerro Largo</span>
-                    <span>Yaguarón 1600 esq. Cerro Largo</span>
+                    <p>Paraguay 1610 esq.Cerro Largo</p>
+                    <p>Tel: 2902 35 15</p>
+                    <p>Yaguarón 1600 esq. Cerro Largo</p>
+                    <p>Tel: 2902 28 48</p>
+                    <hr>
                     <h5>Tacuarembó:</h5>
-                    <span>Emilia Grassi 428-Paso de los Toros</span>
+                    <p>Emilia Grassi 428</p>
+                    <p>Tel: 095 002 631</p>
                 </div>
 
                 <div class="col-md-3 mb-4">
                     <h4>Horarios:</h4>
-                    <span>Lunes a viernes: 08:00 a 18:00 hrs</span>
-                    <span>Sabádos: 08:30 a 12:30 hrs</span>
+                    <p>Lunes a viernes: 08:00-18:00 hrs</p>
+                    <p>Sabádos: 08:30-12:30 hrs</p>
+                    <hr>
+                    <h4>Ventas:</h4>
+                    <p>ventas@lacasadeltornillo.com.uy</p>
+                    <p>Cel: 095 88 51 33</p>
                 </div>
 
                 <div class="col-md-6 mb-3">
@@ -138,8 +242,8 @@
                 </div>
             </div>
 
-            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                <p>Proyecto de Sebastian Tito.</p>
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 border-top">
+                <p>© Proyecto de Sebastian Tito.</p>
                 <ul class="list-unstyled d-flex">
                     <li class="iconos-redes ms-3"><a class="redes link-dark" href="#"><img class="img-fluid iconos"
                                 src="./images/facebook.svg" alt="facebook"></a></li>
@@ -154,5 +258,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>
+    <script>
+        const obsLeft = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('titulo-animado');
+                }
+            });
+        });
+        obsLeft.observe(document.querySelector('#titulo1'));
+        obsLeft.observe(document.querySelector('#titulo2'));
+        </script>
 </body>
+
 </html>
