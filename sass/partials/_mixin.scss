@@ -1,0 +1,4 @@
+@mixin letras ( $font, $size ) {
+    font-family: map-get($fuente, $font);
+    font-size: map-get($fontsize, $size);
+}

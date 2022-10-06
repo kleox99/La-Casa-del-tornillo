@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&family=Numans&display=swap');
+
+.iconos-redes {
+    width: 2rem;
+    height: 2rem;
+}
+
+body {
+    background: map-get($clr, 'fondo');
+    background: $gradient;
+    font-weight: 200;
+    @include letras('cuerpo', 'chica');
+}
+
+.img-hero {
+    width: clamp(10rem, 30vw, 20rem);
+    height: auto;
+    animation: anno 2s ease-in-out;
+}
+
+.productos {
+    border-radius: 0;
+}
+
+.redes-form {
+    font-weight: bold;
+}
+
+h2 {
+    @include letras('cuerpo', 'grande');
+}
+
+h1 {
+    @include letras('cuerpo', 'grande');
+
+    b {
+        @include letras('titulofont', 'grande');
+    }
+}

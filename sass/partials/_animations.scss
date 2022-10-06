@@ -1,0 +1,56 @@
+.titulo-animado {
+    animation: delado 1s ease-in-out forwards;
+}
+
+@keyframes anno {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes delado {
+    0% {
+        opacity: 0;
+        transform: translate(50vw);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes ani-novedades {
+    0% {
+        max-width: 1em;
+        transform: translateY(20%);
+    }
+    30% {
+        max-width: 1em;
+        transform: translateY(-50%) rotate(15deg);
+    }
+    100% {
+        max-width: 1em;
+        transform: translateY(0);
+    }
+}
+
+.animacion-letras {
+    display: inline-flex;
+    align-items: center;
+    
+    span {
+        display: inline-block;
+        max-width: 0;
+        overflow: hidden;
+        
+        @for $i from 1 through 11 {
+            &:nth-of-type(#{$i}) {
+                animation: ani-novedades 0.4s #{$i * 0.2 + 1 + 's'} ease-in-out forwards;
+            }
+        }
+    }
+}

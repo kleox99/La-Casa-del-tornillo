@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+
+.iconos-redes {
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn-catalogo {
+    background-color: #212529;
+    border: white 1px solid;
+    border-radius: 0%;
+    color: white;
+    transition: 0.2s;
+}
+
+.btn-catalogo:hover {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+body {
+    background: rgb(33,37,41);
+    background: linear-gradient(180deg, rgba(33,37,41,1) 5%, rgba(121,121,128,1) 62%, rgba(231,235,236,1) 100%);
+    font-family: 'Numans', sans-serif;
+    font-weight: 200;
+}
+
+.bg-gris {
+    background-color: #212529;
+    border: 2px inset rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    color: white;
+}
+
+.bg-hero {
+    background-image: url("../images/bg-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94vh;
+}
+
+.img-hero {
+    width: clamp(10rem, 30vw, 20rem);
+    height: auto;
+    animation: anno 2s ease-in-out;
+}
+
+.titulo-animado {
+    animation: delado 1s ease-in-out forwards;
+}
+
+
+
+.productos {
+    border-radius: 0;
+}
+
+form {
+    font-weight: bold;
+}
+
+.redes-form {
+    font-weight: bold;
+}
+
+.emoji {
+    font-size: 2rem;
+}
+
+.animacion-derecha {
+    animation: martilloLocoDerecha 2s ease-in-out infinite;
+}
+
+.animacion-izquierda {
+    animation: martilloLocoIzquierda 2s ease-in-out infinite;
+}
+
+@keyframes anno {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes martilloLocoIzquierda {
+
+    0%,
+    100% {
+        transform: rotate(75deg) rotateY(180deg);
+    }
+
+    50% {
+        transform: rotate(-45deg) rotateY(180deg);
+    }
+}
+
+@keyframes martilloLocoDerecha {
+
+    0%,
+    100% {
+        transform: rotate(75deg);
+    }
+
+    50% {
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes delado {
+    0% {
+        opacity: 0;
+        transform: translate(50vw);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-catalogo {
+        display: none;
+    }
+}

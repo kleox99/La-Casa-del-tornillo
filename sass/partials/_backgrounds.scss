@@ -1,0 +1,15 @@
+.bg {
+    &-gris {
+        background-color: #212529;
+        border: 2px inset rgba(255, 255, 255, 0.8);
+        border-radius: 8px;
+        color: map-get($clr, 'letras');
+    }
+
+    &-hero {
+        background-image: url("../images/bg-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 94vh;
+    }
+}

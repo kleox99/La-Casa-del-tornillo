@@ -1,0 +1,18 @@
+.btn-catalogo {
+    background-color: map-get($clr, 'fondo');
+    border: map-get($clr, 'letras') 1px solid;
+    border-radius: 0%;
+    color: map-get($clr, 'letras');
+    transition: 0.2s;
+
+    &:hover {
+        background-color: #f8f9fa;
+        color: black;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-catalogo {
+        display: none;
+    }
+}
