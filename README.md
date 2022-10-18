@@ -7,4 +7,4 @@ Para el desarollo de la web usé HTML, CSS y Bootsrap.
 
 Actualmente se encuenta en desarollo 
 
-[Sitio web en vivo en Github Pages](https://kleox99.github.io/Proyecto-web-2.0/pages/contactenos.html)
+[Sitio web en vivo en Github Pages](https://kleox99.github.io/La-Casa-del-tornillo/)
